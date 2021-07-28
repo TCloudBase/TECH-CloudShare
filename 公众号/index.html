@@ -1,0 +1,17 @@
+<!-- <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script> -->
+<script src="https://res.wx.qq.com/open/js/cloudbase/1.1.0/cloud.js"></script>
+
+<script>
+  window.onload = async()=>{
+    window.tcb = new window.cloud.Cloud({
+      identityless: true,
+      resourceAppid: '',
+      resourceEnv: '',
+    })
+    await window.tcb.init()
+    const res = await window.tcb.callFunction({
+      name: 'test'
+    })
+    console.log(res)
+  }
+</script>
