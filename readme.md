@@ -2,4 +2,4 @@
 
 本仓库为微信云开发环境共享教程配套源码
 
-教程视频前往[腾讯视频](https://v.qq.com/x/page/g3263zgvkir.html)
+教程视频前往[腾讯视频](https://v.qq.com/x/page/c3264yxzjxc.html)
